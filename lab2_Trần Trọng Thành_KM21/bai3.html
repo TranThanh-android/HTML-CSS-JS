@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label>HỌ TÊN: </label>
+            <input tabindex="1" type="text" size="50" /> 
+        </div>
+        
+        <div>
+            <label>QUỐC TỊCH: </label>
+            <input tabindex="2" type="text" size="46" value="VIỆT NAM" readonly/> 
+        </div>
+        
+        <div>
+            <label>GHI CHÚ: </label>
+            <input type="text" size="46" @tabindex=”2” /> 
+        </div>
+        <hr/>
+        <div>
+            <button tabindex="3" type="submit">Thêm</button>
+            <button tabindex="4" type="submit">Sửa</button>
+            <button disabled>Xóa</button>
+        </div>
+    </form>
+</body>
+</html>
